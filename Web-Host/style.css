@@ -1,0 +1,130 @@
+/* Basic styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+#uploadForm {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+input[type="file"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Progress Bar */
+#progress-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  display: none;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#progress-bar {
+  width: 0%;
+  height: 20px;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Stop Button */
+#stopButton {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+  display: none;
+}
+
+#stopButton:hover {
+  background-color: #e53935;
+}
+
+/* Download Files Section */
+#file-list {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#downloadForm {
+  text-align: center;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: -20px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
