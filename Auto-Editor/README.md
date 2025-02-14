@@ -1,5 +1,3 @@
-#Auto-Editor
-
 All of it can be used in any Python environment. Auto-Editor, tqdm, moviepy and pydub libraries will be necessary.
 
 Auto-Editor still needs improvements but if you have a well adjusted audio, it could potentially save a lot of time editing long videos. It can convert videos to different formats, make a video smaller without losing video quality and cut a video based on its sounds or video detection.
